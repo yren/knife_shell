@@ -7,5 +7,5 @@ fi
 
 if [[ $1 == "stop" ]]; then
   echo "stop redis!!!"
-  brew services start redis
+  brew services stop redis
 fi
