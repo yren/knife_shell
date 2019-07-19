@@ -13,4 +13,4 @@ if [ $up == 1 ]; then
     exit 0
 fi
 
-docker run -dit --name httpd-books -p 8070:80 -v /Users/yufei/books:/usr/local/apache2/htdocs/ httpd:2.2
+docker run -dit --name httpd-books -p 8070:80 -v /Users/yufei.ren/books:/usr/local/apache2/htdocs/ httpd:2.2
